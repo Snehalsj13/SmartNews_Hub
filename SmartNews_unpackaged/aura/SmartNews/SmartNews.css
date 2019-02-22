@@ -1,0 +1,27 @@
+.THIS .Body{
+   display:inline-block;
+    border:1px solid #666;
+    border-radius:16px;
+    width:50px;
+    height:50px;
+    background:rgba(176, 196, 223, 1.0)
+}
+
+.THIS .sdgdesignplaceholder{
+    border:1px dashed silver;
+    border-radius: 4px;
+    padding:5px;
+    margin:5px;
+    min-height: 3em;
+}
+
+.THIS .newstitle{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.THIS .image{
+    position: relative;
+    top: 15px;
+    border-radius: 3px;
+}

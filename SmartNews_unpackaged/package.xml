@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SmartNews_unpackaged</fullName>
+    <types>
+        <members>JSON2Apex</members>
+        <members>JSON2ApexSources</members>
+        <members>JSONParserUtil</members>
+        <members>JSONParserUtilTest</members>
+        <members>SmartNewsController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SmartNews</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>News_Source__c.Category__c</members>
+        <members>News_Source__c.Country__c</members>
+        <members>News_Source__c.Description__c</members>
+        <members>News_Source__c.ID__c</members>
+        <members>News_Source__c.Language__c</members>
+        <members>News_Source__c.Name__c</members>
+        <members>News_Source__c.URL__c</members>
+        <members>News__c.Author__c</members>
+        <members>News__c.Content__c</members>
+        <members>News__c.Description__c</members>
+        <members>News__c.SourceUrl__c</members>
+        <members>News__c.Source__c</members>
+        <members>News__c.Title__c</members>
+        <members>News__c.publishedAt__c</members>
+        <members>News__c.urlToImage__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>NewsAPIObject__x</members>
+        <members>News_Source__c</members>
+        <members>News__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>NewsApi</members>
+        <name>ExternalDataSource</name>
+    </types>
+    <types>
+        <members>NewsAPIObject__x-NewsAPIObject Layout</members>
+        <members>News_Source__c-News_Source Layout</members>
+        <members>News__c-News Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>News_Source__c.All</members>
+        <members>News__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>45.0</version>
+</Package>

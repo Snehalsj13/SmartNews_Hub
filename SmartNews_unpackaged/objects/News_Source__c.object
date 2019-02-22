@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>business</fullName>
+                    <default>false</default>
+                    <label>business</label>
+                </value>
+                <value>
+                    <fullName>entertainment</fullName>
+                    <default>false</default>
+                    <label>entertainment</label>
+                </value>
+                <value>
+                    <fullName>general</fullName>
+                    <default>false</default>
+                    <label>general</label>
+                </value>
+                <value>
+                    <fullName>health</fullName>
+                    <default>false</default>
+                    <label>health</label>
+                </value>
+                <value>
+                    <fullName>science</fullName>
+                    <default>false</default>
+                    <label>science</label>
+                </value>
+                <value>
+                    <fullName>sports</fullName>
+                    <default>false</default>
+                    <label>sports</label>
+                </value>
+                <value>
+                    <fullName>technology</fullName>
+                    <default>false</default>
+                    <label>technology</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ar</fullName>
+                    <default>false</default>
+                    <label>ar</label>
+                </value>
+                <value>
+                    <fullName>au</fullName>
+                    <default>false</default>
+                    <label>au</label>
+                </value>
+                <value>
+                    <fullName>br</fullName>
+                    <default>false</default>
+                    <label>br</label>
+                </value>
+                <value>
+                    <fullName>ca</fullName>
+                    <default>false</default>
+                    <label>ca</label>
+                </value>
+                <value>
+                    <fullName>de</fullName>
+                    <default>false</default>
+                    <label>de</label>
+                </value>
+                <value>
+                    <fullName>es</fullName>
+                    <default>false</default>
+                    <label>es</label>
+                </value>
+                <value>
+                    <fullName>fr</fullName>
+                    <default>false</default>
+                    <label>fr</label>
+                </value>
+                <value>
+                    <fullName>gb</fullName>
+                    <default>false</default>
+                    <label>gb</label>
+                </value>
+                <value>
+                    <fullName>ie</fullName>
+                    <default>false</default>
+                    <label>ie</label>
+                </value>
+                <value>
+                    <fullName>in</fullName>
+                    <default>false</default>
+                    <label>in</label>
+                </value>
+                <value>
+                    <fullName>is</fullName>
+                    <default>false</default>
+                    <label>is</label>
+                </value>
+                <value>
+                    <fullName>it</fullName>
+                    <default>false</default>
+                    <label>it</label>
+                </value>
+                <value>
+                    <fullName>nl</fullName>
+                    <default>false</default>
+                    <label>nl</label>
+                </value>
+                <value>
+                    <fullName>no</fullName>
+                    <default>false</default>
+                    <label>no</label>
+                </value>
+                <value>
+                    <fullName>pk</fullName>
+                    <default>false</default>
+                    <label>pk</label>
+                </value>
+                <value>
+                    <fullName>ru</fullName>
+                    <default>false</default>
+                    <label>ru</label>
+                </value>
+                <value>
+                    <fullName>sa</fullName>
+                    <default>false</default>
+                    <label>sa</label>
+                </value>
+                <value>
+                    <fullName>se</fullName>
+                    <default>false</default>
+                    <label>se</label>
+                </value>
+                <value>
+                    <fullName>us</fullName>
+                    <default>false</default>
+                    <label>us</label>
+                </value>
+                <value>
+                    <fullName>za</fullName>
+                    <default>false</default>
+                    <label>za</label>
+                </value>
+                <value>
+                    <fullName>zh</fullName>
+                    <default>false</default>
+                    <label>zh</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ID__c</fullName>
+        <externalId>false</externalId>
+        <label>ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Language__c</fullName>
+        <externalId>false</externalId>
+        <label>Language</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ar</fullName>
+                    <default>false</default>
+                    <label>ar</label>
+                </value>
+                <value>
+                    <fullName>de</fullName>
+                    <default>false</default>
+                    <label>de</label>
+                </value>
+                <value>
+                    <fullName>en</fullName>
+                    <default>false</default>
+                    <label>en</label>
+                </value>
+                <value>
+                    <fullName>es</fullName>
+                    <default>false</default>
+                    <label>es</label>
+                </value>
+                <value>
+                    <fullName>fr</fullName>
+                    <default>false</default>
+                    <label>fr</label>
+                </value>
+                <value>
+                    <fullName>he</fullName>
+                    <default>false</default>
+                    <label>he</label>
+                </value>
+                <value>
+                    <fullName>it</fullName>
+                    <default>false</default>
+                    <label>it</label>
+                </value>
+                <value>
+                    <fullName>nl</fullName>
+                    <default>false</default>
+                    <label>nl</label>
+                </value>
+                <value>
+                    <fullName>no</fullName>
+                    <default>false</default>
+                    <label>no</label>
+                </value>
+                <value>
+                    <fullName>pt</fullName>
+                    <default>false</default>
+                    <label>pt</label>
+                </value>
+                <value>
+                    <fullName>ru</fullName>
+                    <default>false</default>
+                    <label>ru</label>
+                </value>
+                <value>
+                    <fullName>se</fullName>
+                    <default>false</default>
+                    <label>se</label>
+                </value>
+                <value>
+                    <fullName>ud</fullName>
+                    <default>false</default>
+                    <label>ud</label>
+                </value>
+                <value>
+                    <fullName>zh</fullName>
+                    <default>false</default>
+                    <label>zh</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ABC News</fullName>
+                    <default>false</default>
+                    <label>ABC News</label>
+                </value>
+                <value>
+                    <fullName>ABC News (AU)</fullName>
+                    <default>false</default>
+                    <label>ABC News (AU)</label>
+                </value>
+                <value>
+                    <fullName>ANSA.it</fullName>
+                    <default>false</default>
+                    <label>ANSA.it</label>
+                </value>
+                <value>
+                    <fullName>Aftenposten</fullName>
+                    <default>false</default>
+                    <label>Aftenposten</label>
+                </value>
+                <value>
+                    <fullName>Al Jazeera English</fullName>
+                    <default>false</default>
+                    <label>Al Jazeera English</label>
+                </value>
+                <value>
+                    <fullName>Argaam</fullName>
+                    <default>false</default>
+                    <label>Argaam</label>
+                </value>
+                <value>
+                    <fullName>Ars Technica</fullName>
+                    <default>false</default>
+                    <label>Ars Technica</label>
+                </value>
+                <value>
+                    <fullName>Ary News</fullName>
+                    <default>false</default>
+                    <label>Ary News</label>
+                </value>
+                <value>
+                    <fullName>Associated Press</fullName>
+                    <default>false</default>
+                    <label>Associated Press</label>
+                </value>
+                <value>
+                    <fullName>Australian Financial Review</fullName>
+                    <default>false</default>
+                    <label>Australian Financial Review</label>
+                </value>
+                <value>
+                    <fullName>Axios</fullName>
+                    <default>false</default>
+                    <label>Axios</label>
+                </value>
+                <value>
+                    <fullName>BBC News</fullName>
+                    <default>false</default>
+                    <label>BBC News</label>
+                </value>
+                <value>
+                    <fullName>BBC Sport</fullName>
+                    <default>false</default>
+                    <label>BBC Sport</label>
+                </value>
+                <value>
+                    <fullName>Bild</fullName>
+                    <default>false</default>
+                    <label>Bild</label>
+                </value>
+                <value>
+                    <fullName>Blasting News (BR)</fullName>
+                    <default>false</default>
+                    <label>Blasting News (BR)</label>
+                </value>
+                <value>
+                    <fullName>Bleacher Report</fullName>
+                    <default>false</default>
+                    <label>Bleacher Report</label>
+                </value>
+                <value>
+                    <fullName>Bloomberg</fullName>
+                    <default>false</default>
+                    <label>Bloomberg</label>
+                </value>
+                <value>
+                    <fullName>Breitbart News</fullName>
+                    <default>false</default>
+                    <label>Breitbart News</label>
+                </value>
+                <value>
+                    <fullName>Business Insider</fullName>
+                    <default>false</default>
+                    <label>Business Insider</label>
+                </value>
+                <value>
+                    <fullName>Business Insider (UK)</fullName>
+                    <default>false</default>
+                    <label>Business Insider (UK)</label>
+                </value>
+                <value>
+                    <fullName>Buzzfeed</fullName>
+                    <default>false</default>
+                    <label>Buzzfeed</label>
+                </value>
+                <value>
+                    <fullName>CBC News</fullName>
+                    <default>false</default>
+                    <label>CBC News</label>
+                </value>
+                <value>
+                    <fullName>CBS News</fullName>
+                    <default>false</default>
+                    <label>CBS News</label>
+                </value>
+                <value>
+                    <fullName>CNBC</fullName>
+                    <default>false</default>
+                    <label>CNBC</label>
+                </value>
+                <value>
+                    <fullName>CNN</fullName>
+                    <default>false</default>
+                    <label>CNN</label>
+                </value>
+                <value>
+                    <fullName>CNN Spanish</fullName>
+                    <default>false</default>
+                    <label>CNN Spanish</label>
+                </value>
+                <value>
+                    <fullName>Crypto Coins News</fullName>
+                    <default>false</default>
+                    <label>Crypto Coins News</label>
+                </value>
+                <value>
+                    <fullName>Daily Mail</fullName>
+                    <default>false</default>
+                    <label>Daily Mail</label>
+                </value>
+                <value>
+                    <fullName>Der Tagesspiegel</fullName>
+                    <default>false</default>
+                    <label>Der Tagesspiegel</label>
+                </value>
+                <value>
+                    <fullName>Die Zeit</fullName>
+                    <default>false</default>
+                    <label>Die Zeit</label>
+                </value>
+                <value>
+                    <fullName>ESPN</fullName>
+                    <default>false</default>
+                    <label>ESPN</label>
+                </value>
+                <value>
+                    <fullName>ESPN Cric Info</fullName>
+                    <default>false</default>
+                    <label>ESPN Cric Info</label>
+                </value>
+                <value>
+                    <fullName>El Mundo</fullName>
+                    <default>false</default>
+                    <label>El Mundo</label>
+                </value>
+                <value>
+                    <fullName>Engadget</fullName>
+                    <default>false</default>
+                    <label>Engadget</label>
+                </value>
+                <value>
+                    <fullName>Entertainment Weekly</fullName>
+                    <default>false</default>
+                    <label>Entertainment Weekly</label>
+                </value>
+                <value>
+                    <fullName>Financial Post</fullName>
+                    <default>false</default>
+                    <label>Financial Post</label>
+                </value>
+                <value>
+                    <fullName>Financial Times</fullName>
+                    <default>false</default>
+                    <label>Financial Times</label>
+                </value>
+                <value>
+                    <fullName>Focus</fullName>
+                    <default>false</default>
+                    <label>Focus</label>
+                </value>
+                <value>
+                    <fullName>Football Italia</fullName>
+                    <default>false</default>
+                    <label>Football Italia</label>
+                </value>
+                <value>
+                    <fullName>Fortune</fullName>
+                    <default>false</default>
+                    <label>Fortune</label>
+                </value>
+                <value>
+                    <fullName>FourFourTwo</fullName>
+                    <default>false</default>
+                    <label>FourFourTwo</label>
+                </value>
+                <value>
+                    <fullName>Fox News</fullName>
+                    <default>false</default>
+                    <label>Fox News</label>
+                </value>
+                <value>
+                    <fullName>Fox Sports</fullName>
+                    <default>false</default>
+                    <label>Fox Sports</label>
+                </value>
+                <value>
+                    <fullName>Globo</fullName>
+                    <default>false</default>
+                    <label>Globo</label>
+                </value>
+                <value>
+                    <fullName>Google News</fullName>
+                    <default>false</default>
+                    <label>Google News</label>
+                </value>
+                <value>
+                    <fullName>Google News (Argentina)</fullName>
+                    <default>false</default>
+                    <label>Google News (Argentina)</label>
+                </value>
+                <value>
+                    <fullName>Google News (Australia)</fullName>
+                    <default>false</default>
+                    <label>Google News (Australia)</label>
+                </value>
+                <value>
+                    <fullName>Google News (Brasil)</fullName>
+                    <default>false</default>
+                    <label>Google News (Brasil)</label>
+                </value>
+                <value>
+                    <fullName>Google News (Canada)</fullName>
+                    <default>false</default>
+                    <label>Google News (Canada)</label>
+                </value>
+                <value>
+                    <fullName>Google News (France)</fullName>
+                    <default>false</default>
+                    <label>Google News (France)</label>
+                </value>
+                <value>
+                    <fullName>Google News (India)</fullName>
+                    <default>false</default>
+                    <label>Google News (India)</label>
+                </value>
+                <value>
+                    <fullName>Google News (Israel)</fullName>
+                    <default>false</default>
+                    <label>Google News (Israel)</label>
+                </value>
+                <value>
+                    <fullName>Google News (Italy)</fullName>
+                    <default>false</default>
+                    <label>Google News (Italy)</label>
+                </value>
+                <value>
+                    <fullName>Google News (Russia)</fullName>
+                    <default>false</default>
+                    <label>Google News (Russia)</label>
+                </value>
+                <value>
+                    <fullName>Google News (Saudi Arabia)</fullName>
+                    <default>false</default>
+                    <label>Google News (Saudi Arabia)</label>
+                </value>
+                <value>
+                    <fullName>Google News (UK)</fullName>
+                    <default>false</default>
+                    <label>Google News (UK)</label>
+                </value>
+                <value>
+                    <fullName>Gruenderszene</fullName>
+                    <default>false</default>
+                    <label>Gruenderszene</label>
+                </value>
+                <value>
+                    <fullName>Göteborgs-Posten</fullName>
+                    <default>false</default>
+                    <label>Göteborgs-Posten</label>
+                </value>
+                <value>
+                    <fullName>Hacker News</fullName>
+                    <default>false</default>
+                    <label>Hacker News</label>
+                </value>
+                <value>
+                    <fullName>Handelsblatt</fullName>
+                    <default>false</default>
+                    <label>Handelsblatt</label>
+                </value>
+                <value>
+                    <fullName>IGN</fullName>
+                    <default>false</default>
+                    <label>IGN</label>
+                </value>
+                <value>
+                    <fullName>Il Sole 24 Ore</fullName>
+                    <default>false</default>
+                    <label>Il Sole 24 Ore</label>
+                </value>
+                <value>
+                    <fullName>Independent</fullName>
+                    <default>false</default>
+                    <label>Independent</label>
+                </value>
+                <value>
+                    <fullName>InfoMoney</fullName>
+                    <default>false</default>
+                    <label>InfoMoney</label>
+                </value>
+                <value>
+                    <fullName>Infobae</fullName>
+                    <default>false</default>
+                    <label>Infobae</label>
+                </value>
+                <value>
+                    <fullName>L&apos;equipe</fullName>
+                    <default>false</default>
+                    <label>L&apos;equipe</label>
+                </value>
+                <value>
+                    <fullName>La Gaceta</fullName>
+                    <default>false</default>
+                    <label>La Gaceta</label>
+                </value>
+                <value>
+                    <fullName>La Nacion</fullName>
+                    <default>false</default>
+                    <label>La Nacion</label>
+                </value>
+                <value>
+                    <fullName>La Repubblica</fullName>
+                    <default>false</default>
+                    <label>La Repubblica</label>
+                </value>
+                <value>
+                    <fullName>Le Monde</fullName>
+                    <default>false</default>
+                    <label>Le Monde</label>
+                </value>
+                <value>
+                    <fullName>Lenta</fullName>
+                    <default>false</default>
+                    <label>Lenta</label>
+                </value>
+                <value>
+                    <fullName>Les Echos</fullName>
+                    <default>false</default>
+                    <label>Les Echos</label>
+                </value>
+                <value>
+                    <fullName>Libération</fullName>
+                    <default>false</default>
+                    <label>Libération</label>
+                </value>
+                <value>
+                    <fullName>MSNBC</fullName>
+                    <default>false</default>
+                    <label>MSNBC</label>
+                </value>
+                <value>
+                    <fullName>MTV News</fullName>
+                    <default>false</default>
+                    <label>MTV News</label>
+                </value>
+                <value>
+                    <fullName>MTV News (UK)</fullName>
+                    <default>false</default>
+                    <label>MTV News (UK)</label>
+                </value>
+                <value>
+                    <fullName>Marca</fullName>
+                    <default>false</default>
+                    <label>Marca</label>
+                </value>
+                <value>
+                    <fullName>Mashable</fullName>
+                    <default>false</default>
+                    <label>Mashable</label>
+                </value>
+                <value>
+                    <fullName>Medical News Today</fullName>
+                    <default>false</default>
+                    <label>Medical News Today</label>
+                </value>
+                <value>
+                    <fullName>Metro</fullName>
+                    <default>false</default>
+                    <label>Metro</label>
+                </value>
+                <value>
+                    <fullName>Mirror</fullName>
+                    <default>false</default>
+                    <label>Mirror</label>
+                </value>
+                <value>
+                    <fullName>NBC News</fullName>
+                    <default>false</default>
+                    <label>NBC News</label>
+                </value>
+                <value>
+                    <fullName>NFL News</fullName>
+                    <default>false</default>
+                    <label>NFL News</label>
+                </value>
+                <value>
+                    <fullName>NHL News</fullName>
+                    <default>false</default>
+                    <label>NHL News</label>
+                </value>
+                <value>
+                    <fullName>NRK</fullName>
+                    <default>false</default>
+                    <label>NRK</label>
+                </value>
+                <value>
+                    <fullName>National Geographic</fullName>
+                    <default>false</default>
+                    <label>National Geographic</label>
+                </value>
+                <value>
+                    <fullName>National Review</fullName>
+                    <default>false</default>
+                    <label>National Review</label>
+                </value>
+                <value>
+                    <fullName>New Scientist</fullName>
+                    <default>false</default>
+                    <label>New Scientist</label>
+                </value>
+                <value>
+                    <fullName>New York Magazine</fullName>
+                    <default>false</default>
+                    <label>New York Magazine</label>
+                </value>
+                <value>
+                    <fullName>News.com.au</fullName>
+                    <default>false</default>
+                    <label>News.com.au</label>
+                </value>
+                <value>
+                    <fullName>News24</fullName>
+                    <default>false</default>
+                    <label>News24</label>
+                </value>
+                <value>
+                    <fullName>Newsweek</fullName>
+                    <default>false</default>
+                    <label>Newsweek</label>
+                </value>
+                <value>
+                    <fullName>Next Big Future</fullName>
+                    <default>false</default>
+                    <label>Next Big Future</label>
+                </value>
+                <value>
+                    <fullName>Politico</fullName>
+                    <default>false</default>
+                    <label>Politico</label>
+                </value>
+                <value>
+                    <fullName>Polygon</fullName>
+                    <default>false</default>
+                    <label>Polygon</label>
+                </value>
+                <value>
+                    <fullName>RBC</fullName>
+                    <default>false</default>
+                    <label>RBC</label>
+                </value>
+                <value>
+                    <fullName>RT</fullName>
+                    <default>false</default>
+                    <label>RT</label>
+                </value>
+                <value>
+                    <fullName>RTE</fullName>
+                    <default>false</default>
+                    <label>RTE</label>
+                </value>
+                <value>
+                    <fullName>RTL Nieuws</fullName>
+                    <default>false</default>
+                    <label>RTL Nieuws</label>
+                </value>
+                <value>
+                    <fullName>Recode</fullName>
+                    <default>false</default>
+                    <label>Recode</label>
+                </value>
+                <value>
+                    <fullName>Reddit /r/all</fullName>
+                    <default>false</default>
+                    <label>Reddit /r/all</label>
+                </value>
+                <value>
+                    <fullName>Reuters</fullName>
+                    <default>false</default>
+                    <label>Reuters</label>
+                </value>
+                <value>
+                    <fullName>SABQ</fullName>
+                    <default>false</default>
+                    <label>SABQ</label>
+                </value>
+                <value>
+                    <fullName>Spiegel Online</fullName>
+                    <default>false</default>
+                    <label>Spiegel Online</label>
+                </value>
+                <value>
+                    <fullName>Svenska Dagbladet</fullName>
+                    <default>false</default>
+                    <label>Svenska Dagbladet</label>
+                </value>
+                <value>
+                    <fullName>T3n</fullName>
+                    <default>false</default>
+                    <label>T3n</label>
+                </value>
+                <value>
+                    <fullName>TalkSport</fullName>
+                    <default>false</default>
+                    <label>TalkSport</label>
+                </value>
+                <value>
+                    <fullName>TechCrunch</fullName>
+                    <default>false</default>
+                    <label>TechCrunch</label>
+                </value>
+                <value>
+                    <fullName>TechCrunch (CN)</fullName>
+                    <default>false</default>
+                    <label>TechCrunch (CN)</label>
+                </value>
+                <value>
+                    <fullName>TechRadar</fullName>
+                    <default>false</default>
+                    <label>TechRadar</label>
+                </value>
+                <value>
+                    <fullName>The American Conservative</fullName>
+                    <default>false</default>
+                    <label>The American Conservative</label>
+                </value>
+                <value>
+                    <fullName>The Economist</fullName>
+                    <default>false</default>
+                    <label>The Economist</label>
+                </value>
+                <value>
+                    <fullName>The Globe And Mail</fullName>
+                    <default>false</default>
+                    <label>The Globe And Mail</label>
+                </value>
+                <value>
+                    <fullName>The Guardian (AU)</fullName>
+                    <default>false</default>
+                    <label>The Guardian (AU)</label>
+                </value>
+                <value>
+                    <fullName>The Guardian (UK)</fullName>
+                    <default>false</default>
+                    <label>The Guardian (UK)</label>
+                </value>
+                <value>
+                    <fullName>The Hill</fullName>
+                    <default>false</default>
+                    <label>The Hill</label>
+                </value>
+                <value>
+                    <fullName>The Hindu</fullName>
+                    <default>false</default>
+                    <label>The Hindu</label>
+                </value>
+                <value>
+                    <fullName>The Huffington Post</fullName>
+                    <default>false</default>
+                    <label>The Huffington Post</label>
+                </value>
+                <value>
+                    <fullName>The Irish Times</fullName>
+                    <default>false</default>
+                    <label>The Irish Times</label>
+                </value>
+                <value>
+                    <fullName>The Jerusalem Post</fullName>
+                    <default>false</default>
+                    <label>The Jerusalem Post</label>
+                </value>
+                <value>
+                    <fullName>The Lad Bible</fullName>
+                    <default>false</default>
+                    <label>The Lad Bible</label>
+                </value>
+                <value>
+                    <fullName>The New York Times</fullName>
+                    <default>false</default>
+                    <label>The New York Times</label>
+                </value>
+                <value>
+                    <fullName>The Next Web</fullName>
+                    <default>false</default>
+                    <label>The Next Web</label>
+                </value>
+                <value>
+                    <fullName>The Sport Bible</fullName>
+                    <default>false</default>
+                    <label>The Sport Bible</label>
+                </value>
+                <value>
+                    <fullName>The Telegraph</fullName>
+                    <default>false</default>
+                    <label>The Telegraph</label>
+                </value>
+                <value>
+                    <fullName>The Times of India</fullName>
+                    <default>false</default>
+                    <label>The Times of India</label>
+                </value>
+                <value>
+                    <fullName>The Verge</fullName>
+                    <default>false</default>
+                    <label>The Verge</label>
+                </value>
+                <value>
+                    <fullName>The Wall Street Journal</fullName>
+                    <default>false</default>
+                    <label>The Wall Street Journal</label>
+                </value>
+                <value>
+                    <fullName>The Washington Post</fullName>
+                    <default>false</default>
+                    <label>The Washington Post</label>
+                </value>
+                <value>
+                    <fullName>The Washington Times</fullName>
+                    <default>false</default>
+                    <label>The Washington Times</label>
+                </value>
+                <value>
+                    <fullName>Time</fullName>
+                    <default>false</default>
+                    <label>Time</label>
+                </value>
+                <value>
+                    <fullName>USA Today</fullName>
+                    <default>false</default>
+                    <label>USA Today</label>
+                </value>
+                <value>
+                    <fullName>Vice News</fullName>
+                    <default>false</default>
+                    <label>Vice News</label>
+                </value>
+                <value>
+                    <fullName>Wired</fullName>
+                    <default>false</default>
+                    <label>Wired</label>
+                </value>
+                <value>
+                    <fullName>Wired.de</fullName>
+                    <default>false</default>
+                    <label>Wired.de</label>
+                </value>
+                <value>
+                    <fullName>Wirtschafts Woche</fullName>
+                    <default>false</default>
+                    <label>Wirtschafts Woche</label>
+                </value>
+                <value>
+                    <fullName>Xinhua Net</fullName>
+                    <default>false</default>
+                    <label>Xinhua Net</label>
+                </value>
+                <value>
+                    <fullName>Ynet</fullName>
+                    <default>false</default>
+                    <label>Ynet</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>URL__c</fullName>
+        <externalId>false</externalId>
+        <label>URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <label>News_Source</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>ID__c</columns>
+        <columns>NAME</columns>
+        <columns>Category__c</columns>
+        <columns>Country__c</columns>
+        <columns>Description__c</columns>
+        <columns>URL__c</columns>
+        <columns>Language__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>News_Sources</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
